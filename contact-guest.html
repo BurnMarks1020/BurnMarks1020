@@ -1,0 +1,195 @@
+<html>
+    <head>
+    <title></title>
+         <link href="https://fonts.googleapis.com/css?family=Concert+One|Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <style>
+       *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: sans-serif;
+            /*border: 1px solid black;*/
+            padding: none;
+            margin: auto;
+        }
+        #topBar{
+            height: 150px;
+            width: 1423px;;
+           /* padding: 5px;*/
+            /*border: 1px solid black;*/
+            background-image: url("images/website%20header%20background.jpg");
+            
+        }
+        #logo{
+            float: left;
+            display: block;
+            width: 140px;
+            height: 150px;
+            margin-left: 30px;
+            margin-right: 30px;
+        }
+        p{
+            padding-top: 5px;
+            padding-left: 50px;
+            font-size: 1.5em;
+            margin: auto;
+            cursor: default;
+        }
+        header{
+            float: left;
+            display: block;
+            width: 400px;
+            height: 100px;
+            /*border: 1px solid black;*/
+            font-family: 'Concert One', cursive;
+            font-size: 3em;
+            line-height: 40px;
+            text-align: center;
+            margin-top: 39px;
+            margin-left: 40px;
+            
+        }
+        h1{
+            padding-top: 25px;
+            padding-left: 50px;
+            font-size: 1.5em;
+            margin: auto;
+            font-family: 'Concert One', cursive;
+            cursor: default;
+        }
+        nav{
+            float: left;
+            width: 550px;
+            display: inline-block;
+            height: 50px;
+            text-align: center;
+            margin-top: 60px;
+            margin-left: 100px;
+            margin-right: 50px;
+           /* border: 1px solid black;*/
+        }
+        nav a:link{
+            color:black;
+        }
+        nav a:hover{
+            color: yellow;
+        }
+        a{
+            margin-left: 13px;
+            margin-right: 13px;
+            font-size: 1.5em;
+            text-decoration: none;
+            /*font-family: 'Press Start 2p', cursive;*/
+            font-family: 'Concert One', cursive;
+        }
+        main{
+            display: block;
+            /*float: left;*/
+            height: 579px;
+            width: 1423px;
+           /* padding-left: 10px;*/
+            background-image: url(images/body%20baackground.jpg);
+            background-size: 1423px 726px;
+            padding-top: 90px;
+            padding-left: 50px;
+        }
+        #messagebox{
+            float: left;
+            width: 60%;
+            margin-left: 25px;
+            margin-right: 25px;
+            /*border: 1px solid black;*/
+            height: 450px;
+            padding-top: 30px;
+            padding-left: 10px;
+            background-color: hsla(210, 90%, 65%, 0.5);
+            border-radius: 20px;
+        }
+        h2{
+            padding-left: 5px;
+            padding-right: 5px;
+            margin: auto;
+            font-size: 2.5em;
+            font-family: 'Concert One', cursive;
+            cursor: default;
+        }
+        h3{
+            padding-left: 5px;
+            padding-right: 5px;
+            margin: auto;
+            font-size: 4em;
+            font-family: 'Concert One', cursive;
+            text-align: center;
+            color: yellow;
+            text-shadow: black 5px 5px 5px;
+            cursor: default;
+        }
+        input { 
+            display: block;
+            margin-bottom: 1em;
+            /*padding-top: 5px;*/
+            font-size: 1em;
+        }
+        
+        label { 
+            float: left;
+            width: 5em;
+		    padding-right: 1em;
+            text-align: right;
+            font-family: 'Concert One', cursive;
+            font-size: 1.5em;
+        }
+        #messageID{
+            width: 650px;
+            height: 250px;
+            overflow:scroll;
+        }
+        #submit{
+            float: right;
+            margin-right: 42px;
+        }
+    </style>
+    <body>
+    <div id="topBar">
+        <div id="logo">
+           <a href="home.html"><img src="images/Logo_redesign.png" height="140" width="140" class="center"></a> 
+        </div>
+        <header>
+            <img src="images/website%20name.png" height="65" width="400px">
+        </header>
+        <nav>
+            <a href="about.html">About</a>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+            <a href="resume.html">Resume</a>
+            <a href="login.php">Sign in</a>
+        </nav>
+        </div>
+    <main>
+        <div id="messagebox">
+            <h3>Sorry. Only Logged in users can send messages to the developer. Please Login to access full content.</h3>
+            <!--<form method="post" action="contact.php">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="nameID">
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="emailID">
+                <label for="phone">Phone:</label>
+                <input type="text" name="phone" id="phoneID">
+                <label for="message">Message:</label>
+                <input type="text" name="message" id="messageID" >
+                <textarea name="message" rows="14" cols="90"></textarea>
+                <input type="submit" value="Submit" id="submit">
+            </form>-->
+        </div>
+        <h2>Contact Info:</h2>
+        <h1>Address:</h1>
+            <p>356 Spring Lake Ct.</p>
+            <p>Louisville, KY 40229</p>
+        <h1>Phone:</h1>
+            <p>(502)-592-3535</p>
+        <h1>Email:</h1>
+            <p>marksj8@nku.edu</p>
+    </main>
+    </body>
+</html>

@@ -1,0 +1,177 @@
+* { box-sizing: border-box; }
+
+audio { display: block; margin-top: 1em; }
+
+form { padding: 2em; }
+
+label { float: right;
+		display: block; 
+		text-align: right;
+		width: 8em;
+		padding-right: 1em;
+		clear: left; }
+
+input, textarea { display: block; margin-bottom: 1em; }
+
+nav li {
+    display: inline;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#content-table { width: 90%; 
+		margin: auto;
+		border-spacing: 0px;}
+		
+td, th { padding: 0px;
+		 border-style: none; }
+		 
+
+#home { background-image: url(long%20shot%20.jpg);
+			background-size: 100% 100%;
+			height:350px; }
+
+#jobs {
+        background-image: url(fabricator.jpg);
+        background-size: 100% 100%;
+        height: 40vh;
+        width: 50%; 
+        float: right;
+        border: 1px solid grey;
+}
+#jobs2 {
+        background-image: url(welding.jpg);
+        background-size: 100% 100%;
+        height: 40vh;
+        width: 50%; 
+        float: left;
+        border: 1px solid grey;
+}
+
+#jobsavailable {
+        font-size: 1.5em;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        
+}
+dt {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+dd {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    height: 100px;
+}
+nav a:link { color: #D7D7D7; }
+nav a:visited { color: #D2B48C; }
+nav a:hover { color: #FFFFFF; transform:  }
+
+nav { font-weight: bold;
+	  text-align: center;
+	  font-size: 1.5em; 
+	  text-transform: uppercase; 
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+	   }
+nav ul { 
+    list-style-type: none; 
+    padding-left: 0px;
+    }
+nav a { text-decoration: none; }
+
+body {background-color: #222222;
+     font-size: .8em;
+     background-image: url(./DiamondPlatePatternOpacity50_JN-01S.png);
+     color: #221811;
+     font-family: Verdana, Arial, sans-serif; }
+	   
+header { background-color: #990000;
+        color: white;
+		 height: 210px;
+		 background-image: url(SF%20logo%20simpBoxSmall%20JN.png);
+		 background-repeat: no-repeat; }
+		 
+h1 { font-size: 7em;
+	 padding-top: 10px;
+	 padding-left: 130px;
+	 line-height: 200%;
+    	text-align: center;
+   	 font-family: Brush Script MT, Brush Script Std, cursive;
+	  }
+
+h4 { font-size: 1.2em; 
+	 padding-left: 10px; 
+	 padding-bottom: 0px; 
+	 clear: left; }
+
+img { padding: 0px 10px }
+
+main { padding: 0px 0px 2em 0px;
+	   background-color: lightsteelblue; 
+	   font-color: #221811;
+	}
+
+main h2, main h3, main h4, main p, main div, main ul, main dl { padding-left: 3em; 
+  padding-right: 2em;
+  }
+footer { display: block; }
+
+
+.floatleft { float: left; padding: 0px 20px 20px 0px; }
+
+.details { padding-left: 20%;
+		   padding-right: 20%;
+		   overflow: auto; }
+		   
+#wrapper { background-color: #990000;
+		   width: 80%;
+		   min-width: 900px;
+		   max-width: 1280px;
+		   box-shadow: 2px 2px 2px #333;
+		   margin-right: auto;
+		   margin-left: auto; }
+		   
+
+#nav-bar{
+	width:200px;
+	margin-right: 0px;
+	margin-left : 0px;
+}
+#menu_main { padding: 0px 0px 2em 0px;
+	   margin-left: 200px;
+	   background-color: #FCEBB6; 
+	   font-color: #221811;
+	   margin-top: -150px;
+	}
+footer { background-color: #888888;
+		 font-size: .60em; 
+		 font-style: italic;
+		 text-align: center;
+		 padding-bottom: 10px; 
+		 border: 2px solid #000000; 
+		}
+.collapsible {
+  background-color: orangered;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<title>Steidle Fabrication</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="sfweb.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+</head>
+<body>
+<div id="wrapper">
+<header>
+	<h1>Steidle Fabrication Co.</h1>
+</header>
+<nav>
+	<ul>
+	<li><!--<a href="index.html">-->Home<!--</a>--></li>
+	<li><!--<a href="services.html">-->Services<!--</a>--></li>
+	<li><!--<a href="contact.html">-->Contact Us<!--</a>--></li>
+    <li><!--<a href="jobs.html">-->Jobs &amp; Careers<!--</a>--></li>
+    <li><!--<a href="gallery.html">-->Gallery<!--</a>--></li>
+	</ul>
+</nav>
+<main>
+	<div id="jobs">
+    </div>  
+     <div id="jobs2">
+    </div>
+	<div id="jobsavailable">
+        <h2>Jobs Available</h2>
+    </div>
+
+<button class="collapsible">Welder</button>
+<div class="content">
+  <img src="Welder.jpg" height="100" width="100px" class="floatleft">
+    <p>A welder or lit operator is a tradesperson who specializes in fusing materials together.</p>
+</div>
+<button class="collapsible">Fitter</button>
+<div class="content">
+  <img src="mechanical-fitter.jpg" height="100" width="100px" class="floatleft">
+    <p>Fitters and turners are highly skilled craftspeople who manufacture, construct, assemble and fit components for machinery, vehicles, installations and other apparatus or articles. Fitter and turners are also responsible for the maintenance and repair of such equipment.</p>
+</div>
+<button class="collapsible">Press Operation</button>
+<div class="content">
+  <img src="press-operator.jpg" height="100" width="100px" class="floatleft">
+    <p>Punch press operators produce parts from metal, plastic or other materials using a punch press, a computer numeric controlled (CNC) piece of equipment that makes precision cuts, grinds and punches into metal, plastic, composite or other material.</p>
+</div>
+<button class="collapsible">Quality Inspector</button>
+<div class="content">
+     <img src="inspector.jpg" height="100" width="100px" class="floatleft">
+    <p>The Quality Inspector ensures each finished product meets all requirements and regulations.</p>
+</div>
+<button class="collapsible">Sheet Metal Journeyman</button>
+<div class="content">
+    <img src="SheetMetalworker.jpg" height="100" width="100px" class="floatleft">
+    <p>A sheet metal worker is a skilled tradesman who creates, installs, and repairs sheet metal products. Most commonly these products include elements of heating, cooling, and ventilation systems, although sheet metal workers also fabricate and repair products for drainage and roofing applications.</p>
+</div>
+<button class="collapsible">Iron Worker</button>
+<div class="content">
+     <img src="ironworker.jpg" height="100" width="100px" class="floatleft">
+    <p>Build and install iron or steel girders, columns, and other construction materials to form buildings, bridges, and other structures. Cut, position, and bolt down steel bars to reinforce concrete. Repair older infrastructure. Make, weld, and cut structural metal in fabricating shops. Erect steel frames.</p>
+</div>
+
+
+</main>
+	<footer>Copyright &copy; 2018 Steidle Fabrication <br>
+	<i><a href="#">steidlefab@nku.edu</a></i>
+	</footer>
+</div>
+<script>
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+</body>
+</html>
